@@ -3,7 +3,7 @@
   "description": "Additional templating classes for slimcake framework",
   "license": "MIT",
   "require": {
-    "php": ">=5.3"
+    "php": ">=5.5"
   },
   "require-dev": {
     "twig/twig": "^v1.30"
