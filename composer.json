@@ -1,0 +1,16 @@
+{
+  "name": "slimcake/templates",
+  "description": "Additional templating classes for slimcake framework",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "twig/twig": "^v1.30"
+  },
+  "autoload": {
+    "psr-4": {
+      "Slimcake\\Templates\\": "src/"
+    }
+  }
+}
