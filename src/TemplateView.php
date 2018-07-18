@@ -24,4 +24,12 @@ class TemplateView extends View
 
         return $this->build();
     }
+
+    /**
+     * @param string $template
+     */
+    public function setTemplate($template)
+    {
+        $this->template = $template;
+    }
 }
