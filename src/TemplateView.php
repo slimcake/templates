@@ -22,7 +22,7 @@ class TemplateView extends View
         $this->set('__contents__', parent::build());
         $this->render($this->template);
 
-        return $this->build();
+        return $this->extract();
     }
 
     /**
